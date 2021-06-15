@@ -84,11 +84,4 @@ export class AppComponent implements OnInit {
     console.log(JSON.stringify(formVal));
     console.log(formVal);
   }
-
-  onFormReset(): void {
-    setTimeout(() => {
-      this.isSubmitted = false;
-      this.regForm.reset();
-    });
-  }
 }
