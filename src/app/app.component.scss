@@ -1,0 +1,22 @@
+.container {
+  .heading {
+    padding: 1rem;
+    background-color: aquamarine;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+    h2 {
+      text-transform: uppercase;
+      text-align: center;
+    }
+  }
+
+  form {
+    .row {
+      padding: 1rem;
+      background-color: aquamarine;
+      border-bottom-left-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+    }
+  }
+}
